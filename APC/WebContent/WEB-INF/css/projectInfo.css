@@ -1,0 +1,621 @@
+@CHARSET "ISO-8859-1";
+
+html, body
+{
+	background: url(images/bg.gif) no-repeat left top;
+	background-size: 100%;
+	width: 100%;
+  	height: auto;
+  	max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+#HeaderImg
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:10px;
+}
+
+
+#successMsg
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:70px;
+	BACKGROUND-COLOR: green;
+}
+
+#lblHeading
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:110px;
+}
+
+#lblError
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:120px;
+	BACKGROUND-COLOR: red;
+}
+
+#lblBeanName
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:150px;
+}
+
+#txtBeanName
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:430px;
+	TOP:150px;
+	WIDTH:92px;
+}
+
+#lblRelease
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:540px;
+	TOP:150px;
+}
+
+#txtRelease
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:590px;
+	TOP:150px;
+	WIDTH:40px;
+}
+
+#lblModes
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:650px;
+	TOP:150px;
+}
+
+#txtEntry
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:700px;
+	TOP:150px;
+	WIDTH:20px;
+}
+
+#lblEntry
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:720px;
+	TOP:150px;
+}
+
+#txtFind
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:740px;
+	TOP:150px;
+	WIDTH:20px;
+}
+
+#lblFind
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:760px;
+	TOP:150px;
+}
+
+#txtUpdate
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:780px;
+	TOP:150px;
+	WIDTH:20px;
+}
+
+
+#lblUpdate
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:800px;
+	TOP:150px;
+}
+
+#txtDelete
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:820px;
+	TOP:150px;
+	WIDTH:20px;
+}
+
+#lblDelete
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:840px;
+	TOP:150px;
+}
+
+#lblAASecurity
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:870px;
+	TOP:150px;
+}
+
+#txtAASecurity
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:960px;
+	TOP:150px;
+	WIDTH:50px;
+}
+
+#lblIsGrid 
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1020px;
+	TOP:150px;
+}
+
+#txtIsGrid 
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1115px;
+	TOP:150px;
+	WIDTH:50px;
+}
+
+
+#lblScreenTitle
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:200px;
+}
+
+#txtScreenTitle
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:430px;
+	TOP:200px;
+	WIDTH:370px;
+}
+
+
+#lbldbTables
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:815px;
+	TOP:200px;
+}
+
+#txtdbTables
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:885px;
+	TOP:200px;
+	WIDTH:230px;
+}
+
+#btnSubmitHeader
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1130px;
+	TOP:200px;
+	WIDTH:100px;
+}
+
+
+#lblBody 
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:250px;
+}
+
+#lblBodyError
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:80px;
+	TOP:270px;
+	BACKGROUND-COLOR: red;
+}
+
+#lblfieldName
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:300px;
+}
+
+#txtfieldName
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:430px;
+	TOP:300px;
+	WIDTH:180px;
+}
+
+#lblfieldType
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:630px;
+	TOP:300px;
+}
+
+#txtfieldType
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:710px;
+	TOP:300px;
+	WIDTH:80px;
+}
+
+#lblfieldLength
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:800px;
+	TOP:300px;
+}
+
+#txtfieldLength
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:890px;
+	TOP:300px;
+	WIDTH:40px;
+}
+
+#lblIsRequiredField
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:950px;
+	TOP:300px;
+}
+
+#txtEntryRequiredField
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1080px;
+	TOP:300px;
+	WIDTH:20px;
+}
+
+#lblEntryRequiredField
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1100px;
+	TOP:300px;
+}
+
+#txtFindRequiredField
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1120px;
+	TOP:300px;
+	WIDTH:20px;
+}
+
+#lblFindRequiredField
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1140px;
+	TOP:300px;
+}
+
+#txtUpdateRequiredField
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1160px;
+	TOP:300px;
+	WIDTH:20px;
+}
+
+
+#lblUpdateRequiredField
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:1180px;
+	TOP:300px;
+}
+
+
+#lblIsDisplayGray
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:350px;
+}
+
+#txtEntryDisplayGray
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:530px;
+	TOP:350px;
+	WIDTH:20px;
+}
+
+#lblEntryDisplayGray
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:550px;
+	TOP:350px;
+}
+
+#txtFindDisplayGray
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:570px;
+	TOP:350px;
+	WIDTH:20px;
+}
+
+#lblFindDisplayGray
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:590px;
+	TOP:350px;
+}
+
+#txtUpdateDisplayGray
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:610px;
+	TOP:350px;
+	WIDTH:20px;
+}
+
+
+#lblUpdateDisplayGray
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:630px;
+	TOP:350px;
+}
+
+#lblIsDropDown
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:655px;
+	TOP:350px;
+}
+
+#txtIsDropDown
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:755px;
+	TOP:350px;
+	WIDTH:60px;
+}
+
+
+#lblDBColumn 
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:830px;
+	TOP:350px;
+}
+
+#txtDBColumn 
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:955px;
+	TOP:350px;
+	WIDTH:230px;
+}
+
+
+#lblIsSearchable
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:400px;
+}
+
+#txtIsSearchable
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:440px;
+	TOP:400px;
+	WIDTH:60px;
+}
+
+#lblIsGridField
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:510px;
+	TOP:400px;
+}
+
+#txtIsGridField
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:600px;
+	TOP:400px;
+	WIDTH:60px;
+}
+
+#lblGridfieldName
+{
+	white-space:nowrap;
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:670px;
+	TOP:400px;
+}
+
+#txtGridfieldName
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:795px;
+	TOP:400px;
+	WIDTH:110px;
+}
+
+#btnAddAnotherField
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:950px;
+	TOP:400px;
+	WIDTH:200px;
+}
+
+
+#btnReset
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:600px;
+	TOP:450px;
+	WIDTH:100px;
+}
+
+#btnFinal
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:750px;
+	TOP:450px;
+	WIDTH:100px;
+}
+
+#myTable
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:500px;
+}
+
+#lblEnd
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:150px;
+	TOP:450px;
+	WIDTH:1000px;
+}
+
+#lblres
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:150px;
+}
+
+#lblhome
+{
+	POSITION:absolute;
+	Z-INDEX:50;
+	LEFT:350px;
+	TOP:400px;
+}
+
+INPUT.DisplayGray
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: MS Sans Serif;
+    POSITION: absolute;
+    BACKGROUND-COLOR: LightGrey;
+    TEXT-ALIGN: left;
+    READONLY: True
+}
