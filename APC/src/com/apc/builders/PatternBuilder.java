@@ -7,7 +7,7 @@ import com.apc.core.interfaces.Pattern;
 import com.apc.core.mvc.decorators.JavaViewDecorator;
 
 /**
- * @author Suresh Kumar Mutukula.
+ * @author Suresh Kumar Mutukula
  *
  */
 public class PatternBuilder {
